@@ -1,0 +1,25 @@
+/*
+Theme Name: DaQ Bootstrap 5 Custom Theme
+Theme URI: https://daqcreator.pl
+Author: DaQCreator
+Autor URL: https://daqcreator.pl
+Description: Custom theme for Wordpress websites.
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+:root {
+  --bg-main-gradient: linear-gradient(45deg, rgb(255, 255, 255), rgba(203, 217, 155, 0.15), rgb(255, 255, 255), rgba(204, 155, 217, 0.5));
+  --bg-btn-gradient: linear-gradient(45deg, rgb(255, 255, 255, 0), rgba(19, 228, 30, 0.4), rgb(255, 255, 255, 0));
+  --glass-bg-gradient: linear-gradient(60deg, rgba(255, 255, 255, 0.1), rgba(237, 242, 251, 0.2), rgba(255, 255, 255, 0.1));
+  --glass-bg: rgba(237, 242, 251, 0.5);
+  --glass-blur: blur(4px);
+  --glass-shadow: 0 0 10px rgba(0,0,0,.1);
+  --color-custom-main: #0353a4;
+}
+
+body {
+  overflow-x: hidden;
+}

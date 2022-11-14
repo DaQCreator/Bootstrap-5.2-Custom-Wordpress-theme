@@ -1,0 +1,45 @@
+.banner_custom_image img
+  float: right
+
+@media (max-width: 767px)
+  .banner_custom_image img
+    float: none
+    margin-right: auto
+    margin-left: auto
+
+/* Featured section */
+.feature_holder
+  transition: .2s linear
+
+  &:hover
+    transform: scale(1.05)
+
+  & img
+    width: 100%
+    height: auto
+    padding-top: 10px
+
+/* Main Content */
+.main-content h2
+  font-size: 1.5em
+  font-weight: 600
+
+.main-content img
+  max-width: 100%
+  height: auto
+
+blockquote
+  padding: 15px
+  background-color: var(--glass-bg)
+  box-shadow: var(--glass-shadow)
+  backdrop-filter: var(--glass-blur)
+  border-left: 5px solid #0353a4
+  border-radius: 5px
+
+pre
+  padding: 15px
+  background-color: var(--glass-bg)
+  box-shadow: var(--glass-shadow)
+  backdrop-filter: var(--glass-blur)
+  border: 2px solid #0353a44e
+  border-radius: 3px
